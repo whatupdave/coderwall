@@ -183,8 +183,8 @@ group :test do
   gem 'stripe-ruby-mock', git: 'https://github.com/rebelidealist/stripe-ruby-mock', branch: 'live-tests'
 end
 
+gem 'airbrake'
 group :production do
-  gem 'airbrake'
   gem 'newrelic_rpm'
   gem 'puma'
   gem 'rails_12factor'
