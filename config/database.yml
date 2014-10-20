@@ -4,7 +4,7 @@ default: &default
   host: localhost
   password:
   pool: 5
-  port: <%= ENV['DEV_POSTGRES_PORT'] || 5432 %>
+  port: 5432
   username: vagrant
 
 development:
